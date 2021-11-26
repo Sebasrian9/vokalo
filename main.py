@@ -6,13 +6,13 @@ from time import sleep_ms, sleep , ticks_ms
 import GPSfunk
 import lyd
 import led 
-
 # ATGM336H-5N <--> ESP32 
 # GPS til ESP32 kredsløb
 # GPS VCC --> ESP32 3v3
 # GPS GND --> ESP32 GND
 # GPS TX  --> ESP32 GPIO 16
 
+#knap som instantieres til et Pin objekt på Pin 32 
 knap = Pin(32,Pin.IN)
 
 interval = 5000 # 5esk == 5000milli sek 
