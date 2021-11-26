@@ -7,7 +7,7 @@ n = 12
 #  control pin 
 p = 26 # D1 til pin 26
 
-
+#oprette et NeoPixel-objekt
 np = neopixel.NeoPixel(Pin(p),n)
 
 # set every pixel (1st pixel = index [0]) to red color
